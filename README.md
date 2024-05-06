@@ -41,14 +41,15 @@ Make sure you have [Node.js](https://nodejs.org/) and [Expo CLI](https://docs.ex
 3. Install dependencies
    ```sh
    npm install
-Running the App
+##Running the App
 1. Start the Expo development server
   ```sh
    npm start
-2.Scan the QR code with the Expo Go app on your mobile device, or use an emulator/simulator to run the app.
-##Contributing
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.(For now contributions are not accepted as the app is in development stage.)
+2. Scan the QR code with the Expo Go app on your mobile device, or use an emulator/simulator to run the app.
 
+#Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 Fork the Project
 Create your Feature Branch (git checkout -b feature/AmazingFeature)
 Commit your Changes (git commit -m 'Add some AmazingFeature')
@@ -58,6 +59,6 @@ License
 Distributed under the MIT License. See LICENSE for more information.
 
 Contact
-Pramod L Malagi - pramod97404@gmail.com (reach out to me if you have any suggestions!)
+Pramod L Malagi - *pramod97404@gmail.com* (reach out to me if you have any suggestions!)
 
 Project Link: https://github.com/Pramod3245/ridem8app
