@@ -8,23 +8,20 @@ import {
 export default function ChatItem({ item }) {
   const bgImage = require("ridem8app/assets/images/loneBike1.jpeg");
   return (
-    <TouchableOpacity className="flex-row justify-between mx-4 gap-3 items-center mb-4 pb-2 border-b border-b-neutral-200">
+    <TouchableOpacity style={{ flexDirection: "row", justifyContent: "space-between", marginHorizontal: wp(4), marginBottom: hp(4), paddingBottom: hp(2), borderBottomWidth: 1, borderBottomColor: "#D1D5DB" }}>
       <Image
         source={bgImage}
-        style={{ height: hp(6), width: hp(6) }}
-        className="rounded-full"
+        style={{ height: hp(6), width: hp(6), borderRadius: hp(3) }}
       />
-      <View className="flex-1 gap-1 ">
-        <View className="flex-row justify-between">
+      <View style={{ flex: 1, marginLeft: wp(2) }}>
+        <View style={{ flexDirection: "row", justifyContent: "space-between" }}>
           <Text
-            style={{ fontSize: hp(1.8) }}
-            className="font-semibold text-neutral-800"
+            style={{ fontSize: hp(1.8), fontWeight: "600", color: "#374151" }}
           >
             Person1
           </Text>
           <Text
-            style={{ fontSize: hp(1.6) }}
-            className="font-medium text-neutral-500"
+            style={{ fontSize: hp(1.6), color: "#6B7280" }}
           >
             Time
           </Text>
