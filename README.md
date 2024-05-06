@@ -46,7 +46,7 @@ Running the App
   ```sh
    npm start
 2.Scan the QR code with the Expo Go app on your mobile device, or use an emulator/simulator to run the app.
-**Contributing**
+##Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.(For now contributions are not accepted as the app is in development stage.)
 
 Fork the Project
