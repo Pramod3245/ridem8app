@@ -41,7 +41,7 @@ Make sure you have [Node.js](https://nodejs.org/) and [Expo CLI](https://docs.ex
 3. Install dependencies
    ```sh
    npm install
-##Running the App
+###Running the App
 1. Start the Expo development server
   ```sh
    npm start
