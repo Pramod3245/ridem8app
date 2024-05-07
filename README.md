@@ -2,9 +2,6 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/yourusername/your-repo-name/blob/main/LICENSE)
 
-
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Pramod3245/ridem8app/blob/main/LICENSE)
-
 ## Description
 
 Ridem8 isn't your average motorcycle club. Forget stuffy hierarchies and strict rules. Ridem8 is about pure, unadulterated passion for two wheels and the freedom of the open road. It's a community built by riders, for riders, where camaraderie trumps chrome and inclusivity beats exclusivity.
