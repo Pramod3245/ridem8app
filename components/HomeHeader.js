@@ -22,7 +22,7 @@ import { MaterialIcons } from "@expo/vector-icons";
 const ios = Platform.OS == "ios";
 export default function HomeHeader() {
   const { top } = useSafeAreaInsets();
-  const {user}= useAuth();
+  const {user, logout}= useAuth();
 
   const handleProfile = () => {};
 
@@ -32,11 +32,11 @@ export default function HomeHeader() {
 
   return (
     <View
-      style={{ paddingTop: ios ? top : top + 10 }}
-      className="flex-row justify-between px-5 bg-indigo-400 pb-6 rounded-b-3xl shadow"
+      style={{ paddingTop: ios ? top : top + 10}}
+      className="flex-row justify-between px-5 bg-gray-600 pb-6 shadow"
     >
       <View>
-        <Text style={{ fontSize: hp(3) }} className="font-medium text-white">
+        <Text style={{ fontSize: hp(3)}} className="font-medium text-white">
           Chats
         </Text>
       </View>

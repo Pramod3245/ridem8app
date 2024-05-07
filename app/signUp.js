@@ -46,7 +46,7 @@ export default function Signup() {
     let response=  await register(emailRef.current, passwordRef.current, usernameRef.current, profileRef.current)
     setLoading(false)
 
-    console.log('got result', response);
+    // console.log('got result', response);
     if(!response.success){
       Alert.alert('Sign-Up', response.msg);
     }
