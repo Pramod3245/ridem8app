@@ -43,7 +43,7 @@ Make sure you have [Node.js](https://nodejs.org/) and [Expo CLI](https://docs.ex
 
 1. Start the Expo development server
    ```sh
-   npm start
+   npm expo start
    ```
 2. Scan the QR code with the Expo Go app on your mobile device, or use an emulator/simulator to run the app.
 
