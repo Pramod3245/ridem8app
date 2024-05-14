@@ -3,6 +3,7 @@ import { Text, View } from "react-native";
 import { FlatList } from "react-native-gesture-handler";
 import ChatItem from "./ChatItem";
 import { useRouter } from "expo-router";
+import Navbar from "./Navbar";
 
 export default function ChatList({ users, currentUser }) {
   const router = useRouter();
@@ -23,6 +24,7 @@ export default function ChatList({ users, currentUser }) {
           />
         )}
       />
+      <Navbar/>
     </View>
   );
 }
